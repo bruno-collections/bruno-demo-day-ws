@@ -6,17 +6,5 @@ info:
 collections:
   - name: "Bruno E2E Demo"
     path: "collections/Bruno E2E Demo"
-  - name: "New Collection"
-    path: "collections/New Collection"
-  - name: "Swagger Petstore"
-    path: "collections/Swagger Petstore"
-  - name: "Zscaler OneAPI"
-    path: "collections/Zscaler OneAPI"
-  - name: "Zscaler OneAPI - 1"
-    path: "collections/Zscaler OneAPI - 1"
-
-specs:
-  - name: "swagger-petstore"
-    path: "../demo-assets/swagger-petstore.json"
 
 docs: ''
