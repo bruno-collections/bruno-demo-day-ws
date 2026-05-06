@@ -7,10 +7,10 @@ info:
 
 http:
   method: GET
-  url: https://dogapi.dog/api/v2/facts?max_length=2
+  url: https://dogapi.dog/api/v2/facts?max_length=5
   params:
     - name: max_length
-      value: "2"
+      value: "5"
       type: query
   auth: inherit
 
@@ -19,6 +19,7 @@ runtime:
     - type: after-response
       code: |-
         const responseUrl = res.getUrl();
+        console.log("done")
         // console.log("Response URL:", responseUrl);
     - type: tests
       code: |-
