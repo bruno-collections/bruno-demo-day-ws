@@ -38,7 +38,7 @@ jobs:
       
       - name: Run API Tests
         working-directory: ./collections/Bruno E2E Demo
-        run: bru run --env Demo-Env Product\ Update\ Flow --reporter-html ../../reports/results.html --sandbox=developer
+        run: bru run --env Demo-Env Product\ Update\ Flow --reporter-html ../../reports/report.html --sandbox=developer
       
       - name: Upload Test Results
         uses: actions/upload-artifact@v4
